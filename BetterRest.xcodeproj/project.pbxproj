@@ -11,6 +11,7 @@
 		5D7053E9267082E6007C01CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7053E8267082E6007C01CF /* ContentView.swift */; };
 		5D7053EB267082E8007C01CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7053EA267082E8007C01CF /* Assets.xcassets */; };
 		5D7053EE267082E8007C01CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7053ED267082E8007C01CF /* Preview Assets.xcassets */; };
+		5DA026AC2671C31F008F2915 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5DA026AB2671C31F008F2915 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5D7053EA267082E8007C01CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7053ED267082E8007C01CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D7053EF267082E8007C01CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA026AB2671C31F008F2915 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				5D7053E8267082E6007C01CF /* ContentView.swift */,
 				5D7053EA267082E8007C01CF /* Assets.xcassets */,
 				5D7053EF267082E8007C01CF /* Info.plist */,
+				5DA026AB2671C31F008F2915 /* SleepCalculator.mlmodel */,
 				5D7053EC267082E8007C01CF /* Preview Content */,
 			);
 			path = BetterRest;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA026AC2671C31F008F2915 /* SleepCalculator.mlmodel in Sources */,
 				5D7053E9267082E6007C01CF /* ContentView.swift in Sources */,
 				5D7053E7267082E6007C01CF /* BetterRestApp.swift in Sources */,
 			);
